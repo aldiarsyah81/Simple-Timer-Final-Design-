@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Shadow -->
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+
+            <solid android:color="#00CCCCCC" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+
+            <solid android:color="#10000000" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+
+            <solid android:color="#200E0E0E" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+
+            <solid android:color="#30151515" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+
+            <solid android:color="#50000000" />
+        </shape>
+    </item>
+
+    <!-- Background -->
+    <item>
+        <shape
+            android:shape="oval">
+            <solid android:color="#082677"/>
+        </shape>
+    </item>
+</layer-list>
