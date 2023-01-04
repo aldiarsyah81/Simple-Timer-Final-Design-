@@ -13,7 +13,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="59dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="190dp"
         android:background="@drawable/round"
         android:elevation="10dp" />
 
@@ -24,7 +24,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="115dp"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="242dp"
         android:elevation="11dp"
         android:format="00:00:00"
         android:textColor="#00E0FF"
@@ -38,7 +38,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="131dp"
-        android:layout_marginTop="355dp"
+        android:layout_marginTop="305dp"
         android:elevation="11dp"
         android:text="  M             S             mS"
         android:textColor="#00E0FF"
@@ -52,7 +52,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="166dp"
+        android:layout_marginTop="136dp"
         android:background="@drawable/round2"
         android:elevation="9dp" />
 
@@ -63,7 +63,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="154dp"
-        android:layout_marginTop="417dp"
+        android:layout_marginTop="348dp"
         android:layout_marginEnd="10dp"
         android:background="@android:color/transparent"
         android:elevation="11dp"
@@ -76,7 +76,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="219dp"
-        android:layout_marginTop="418dp"
+        android:layout_marginTop="348dp"
         android:background="@android:color/transparent"
         android:elevation="11dp"
         android:src="@drawable/ic_stop" />
@@ -106,5 +106,23 @@
         android:elevation="11dp"
         android:onClick="setting"
         android:src="@drawable/ic_setting" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="565dp"
+        android:layout_marginEnd="0dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="false" />
+
+    </LinearLayout>
 
 </RelativeLayout>
